@@ -1,0 +1,54 @@
+APIs
+
+Sign In
+
+Sign Out
+
+Create Restaurant
+
+Upload Menu
+
+Create Employee
+
+Get Today's Menu
+
+Vote for Menu
+
+Get Voting Results
+
+Get Restaurants
+
+Get All Menus of Today
+
+Get Today's Menu from Specific Restaurant
+
+Get Employee
+
+Get Restaurant
+
+Update Restaurant/Employee/Menu
+
+
+
+Vote for Menu
+	Update or Put
+	Header:
+		version_number:
+		// If new version, then this variable will hold an array otherwise a single element
+		menu_choice:
+
+
+Models
+	User
+		Employee
+		Restaurant Admin
+		Super Admin
+	
+	Restaurant
+	Menu
+	Address
+	
+
+Django apps
+	people
+	menus?
