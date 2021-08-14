@@ -20,5 +20,5 @@ class Address(models.Model):
     area = models.CharField(max_length=100)
     street = models.CharField(max_length=100)
     postal_code = models.CharField(max_length=100)
-    building_name = models.CharField(max_length=100, null=true, blank=true)
-    building_floor = models.CharField(max_length=100, null=true, blank=true)
+    building_name = models.CharField(max_length=100, null=True, blank=True)
+    building_floor = models.CharField(max_length=100, null=True, blank=True)

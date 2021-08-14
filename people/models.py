@@ -8,4 +8,5 @@ class Employee(models.Model):
     department = models.CharField(max_length=100)
 
 class RestaurantAdmin(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     restaurant = models.OneToOneField(Restaurant, on_delete=models.CASCADE)
