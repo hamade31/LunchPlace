@@ -20,6 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# Since this is a test app and not a live project, it is ok to keep this key in this file and when uploading to github.
+# If this was a commercial project, then this key would be hidden and not placed here.
 SECRET_KEY = '=7kj64)ze+4wjjjb_e8d0q7xd$=t@e&+lms$x(xcvpc9n-u#qb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -38,8 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'people',
-    'restaurants',
+    'voting',
 ]
 
 MIDDLEWARE = [
